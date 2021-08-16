@@ -1,0 +1,172 @@
+.container{
+    display : flex; 
+    margin : 20px;
+}
+
+
+.grid-user {
+    width : 400px;
+    height : 400px;
+    display : flex;
+    flex-wrap : wrap;
+    background-color: blue;
+    margin : 20px;
+}
+
+.grid div {
+    width: 40px;
+    height : 40px;
+}
+
+.grid-computer {
+    width : 400px;
+    height : 400px;
+    display : flex;
+    flex-wrap : wrap;
+    background-color: lightgreen;
+    margin : 20px;
+}
+
+.grid-display{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: yellow;
+}
+
+.destroyer-container{
+    width : 80px;
+    height : 40px;
+    background : orange;
+    margin: 10px;
+    display: flex;
+}
+
+.destroyer-container-vertical{
+    width : 40px;
+    height : 80px;
+    background : orange;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.destroyer{
+    background-color : orange;
+}
+
+.submarine-container{
+    width : 120px;
+    height : 40px;
+    background : pink;
+    margin: 10px;
+    display: flex;
+}
+
+.submarine-container-vertical{
+    width : 40px;
+    height : 120px;
+    background : pink;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submarine{
+    background-color : pink;
+}
+
+
+.cruiser-container{
+    width : 120px;
+    height : 40px;
+    background : purple;
+    margin: 10px;
+    display: flex;
+}
+
+.cruiser-container-vertical{
+    width : 40px;
+    height : 120px;
+    background : purple;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cruiser{
+    background-color : purple;
+}
+
+.battleship-container{
+    width : 160px;
+    height : 40px;
+    background :aqua;
+    margin: 10px;
+    display: flex;
+}
+
+.battleship-container-vertical{
+    width : 40px;
+    height : 160px;
+    background : aqua;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.battleship{
+    background-color : aqua;
+}
+
+.carrier-container{
+    width : 200px;
+    height : 40px;
+    background :green;
+    margin: 10px;
+    display: flex;
+}
+.carrier-container-vertical{
+    width : 40px;
+    height : 200px;
+    background : green;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carrier{
+    background-color : green;
+}
+
+.ship div{
+    width: 40px;
+    height: 40px;
+}
+
+.boom {
+    background-color: red;
+}
+
+
+.miss{
+    background-color: black;
+}
+
+
+.connected, .ready{
+    font-weight: normal;
+}
+
+.connected span, .ready span{
+    display : inline-block;
+    width: 1rem;
+    height: 1rem;
+    background: red;
+}
+
+span.green {
+    background: green;
+}
