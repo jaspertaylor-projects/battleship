@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const http = require("http");
-const PORT = process.env.PORT || 3002
+const PORT = process.env.PORT || 3001
 const socketio = require("socket.io");
 const { disconnect } = require("process");
 const app = express()
